@@ -1,0 +1,143 @@
+*{
+    font-family: 'Actor', sans-serif;
+}
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+#owl-example .item img{
+    display: block;
+    width: 95%;
+    height: 250px;
+    border-radius: 30px;
+    border: 3px solid #00d8ff;
+ }
+#owl-example{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 60%;
+}
+body{
+    background-image: url("../images/bg.jpg");
+}
+#outer{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+nav{ 
+    text-align: center;
+    background-color:#00d8ff;
+}
+.huge{
+  font-size: 25px;
+}
+.innerul{
+    list-style: none;
+}
+.innerul li{
+    display: inline-block;
+    padding-left: 5%;
+}
+a{
+    text-decoration: none;
+    font-style: bold;
+    font-size: 20px;
+    color: black;
+}
+article img{
+    width:100%;
+    height:auto;
+    border-radius: 30px;
+    border: 2px solid #00d8ff;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+article{
+    -webkit-columns: 4; /* Chrome, Safari, Opera */
+    -moz-columns: 4; /* Firefox */
+    columns: 4;
+    -webkit-column-width: 20%;
+    -moz-column-width: 20%;
+    column-width: 20%;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+
+}
+.bord{
+  border:1px solid black;
+}
+#title{
+  width: 100%;
+
+}
+#color{
+
+  width: 20%;
+  height: 427px;
+  overflow: auto;
+}
+.pr{
+  margin-left: 10%;
+}
+#design{
+   width:60%;
+   height:400px;
+   position: relative;
+}
+#design img[id="0"]{
+  display: none;
+}
+#upload{
+   width:18%;
+}
+.c1{
+  position: relative;
+  display: inline-block;    
+}
+#color img{
+  width:100%;
+  height: auto;
+}
+#predef{
+  width:100%;
+  height:320px;
+  overflow-y:auto;
+  overflow-x:auto;
+}
+#predef ul{
+  width:10000px;
+  white-space: nowrap;
+}
+#predef li {
+  float: left;
+  display:inline
+}
+#predef li img{
+  width:200px;
+  height: 200px;
+  }
